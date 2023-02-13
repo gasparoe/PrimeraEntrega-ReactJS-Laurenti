@@ -1,8 +1,16 @@
 import React from 'react'
+import './ItemListContainer.css';
 
-const ItemListContainer = () => {
+const ItemListContainer = (props) => {
+
+
+
+  console.log(props.products)
+
   return (
-    <div>ItemListContainer</div>
+    <div class="itemListContainer">
+      <h1>{props.products}</h1>
+    </div>
   )
 }
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Footer from './Components/Footer/Footer';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import Navbarvieja from './Components/Navbarvieja/Navbarvieja';
 // import './index.css';
 // import App from './App';
@@ -9,6 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Navbarvieja/>
+      <ItemListContainer products="No hay productos para mostrar" />
+      <Footer />
   </React.StrictMode>
 );
 

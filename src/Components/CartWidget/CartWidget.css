@@ -11,7 +11,8 @@
 }
 
 .cantidadCarrito {
-    padding: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
     font-weight: bold;
     background-color: white;
     border-radius: 50%;
