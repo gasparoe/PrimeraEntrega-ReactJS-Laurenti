@@ -2,17 +2,6 @@
     background-color: black;
   }
  
-  .cantidadCarrito {
-    display: none;
-  }
-  @media (min-width: 992px) {
-    body #header .header__informacion {
-      display: block;
-    }
-    body #header .cantidadCarrito {
-      display: block;
-    }
-  }
   .menu {
     background-color: black;
     font-family: sans-serif;
@@ -25,20 +14,18 @@
     text-decoration: none;
     color: white;
   }
-  .menu .avatar {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+ 
   .menu p {
     padding: 5px;
     color: white;
     font-size: 30px;
   }
+
+  .desplegable{
+    color: black !important;
+  }
   
+ 
   
   /* #footer {
     background-color: white;
